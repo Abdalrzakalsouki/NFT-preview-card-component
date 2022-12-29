@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://www.frontendmentor.io/solutions/nft-preview-card-component-1-qwQjycNO)
+- Live Site URL: (https://nft-preview-card-component-5bde.onrender.com)
 
 ## My process
 
