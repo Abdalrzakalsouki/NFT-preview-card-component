@@ -76,6 +76,7 @@ body {
       }
       .footer {
         @include MX.flex;
+        flex-wrap: wrap;
         padding-top: calc(V.$PT + 0.5em);
         margin-right: 2em;
         img {
@@ -84,16 +85,28 @@ body {
           aspect-ratio: 1;
           border: solid 1px V.$white;
           border-radius: 100%;
+          margin-left: 11px;
         }
         p {
           font-size: 0.7em;
           color: V.$SB;
           padding-left: 0.6em;
+          text-align: center;
           span {
             color: V.$white;
             padding-left: 0.3em;
           }
         }
+      }
+    }
+    .attribution {
+      position: absolute;
+      bottom: 1em;
+      color: V.$white;
+      font-size: 2vw;
+
+      a {
+        color: V.$Cyan;
       }
     }
   }
